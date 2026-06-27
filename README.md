@@ -4,9 +4,11 @@ Qui ho caricato i file utilizzati nella redazione del terzo punto del progetto d
 
 [Cerca_Poli_R](Cerca_Poli_R.m): file di supporto che viene automaticamente eseguito runnando [Progetto_Regolatore](Progetto_Regolatore.m), per trovare il guadagno e i due poli della R fittando i requisiti con i parametri settati nel file stesso;
 
-[Estrai_G](Estrai_G.m): funzione molto semplice che serve solo a calcolare G a partire da []() e ne fornisce diagramma di Bode, mappa poli e zeri e in Command Window anche la forma di Evans;
+[Estrai_G](Estrai_G.m): funzione molto semplice che serve solo a calcolare G a partire da [carroponte_param](carroponte_param.m) e ne fornisce diagramma di Bode, mappa poli e zeri e in Command Window anche la forma di Evans;
 
 [carroponte_inizializzazione_solution](carroponte_inizializzazione_solution.m): file fornito con la traccia dell'esercizio, serve per verificare che la R sia adatta e rispetti tutti i parametri:
 
 [sim_carroponte_OL](sim_carroponte_OL.m): Serve per fare la simulazione del modello in anello aperto;
+
+[carroponte_param](carroponte_param.m): file contenente i parametri del modello linearizzato.
 
